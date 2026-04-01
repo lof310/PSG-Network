@@ -1,5 +1,5 @@
 CC      = gcc
-CFLAGS  = -O2 -Wall -Wextra -std=c99
+CFLAGS  = -g -O0 -Wall -Wextra -std=c99 -D_GNU_SOURCE
 LDFLAGS = -lm
 TARGET  = psgn_test
 
